@@ -60,7 +60,7 @@ export default function QuotePage({ quoteItems, setQuoteItems }) {
                         </h2>
 
                         {/**Let user go back and add more */}
-                        <Link href="/product" className='quote-left__add-more'>
+                        <Link href="/products" className='quote-left__add-more'>
                         + Add more product
                         </Link>
                     </div>
