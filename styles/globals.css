@@ -756,6 +756,11 @@ button {
   padding: 20px;
   border-bottom: 1px solid var(--grey-mid);
 }
+@media (max-width: 768px) {
+  .sidebar__header {
+    padding: 24px 20px 20px;
+  }
+}
 
 .sidebar__title {
   font-family: 'Oswald', sans-serif;
