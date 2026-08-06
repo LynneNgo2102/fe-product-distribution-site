@@ -31,7 +31,7 @@ export default function ProductCard({product, addToQuote}) {
                 className="product-card__btn" 
                 disabled={!product.inStock}
                 onClick={() => addToQuote(product)}>
-                    {product.InStock ? 'Add to Quote' : 'Unavailable'}
+                    {product.inStock ? 'Add to Quote' : 'Unavailable'}
                     </button>
             </div>
         </div>

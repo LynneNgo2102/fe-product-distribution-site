@@ -824,6 +824,20 @@ button {
   display: none;
 }
 
+.sidebar__close {
+  margin-left: auto;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+@media (min-width: 769px) {
+  .sidebar__close {
+    display: none;
+  }
+}
 /* ── Results bar ── */
 .results-bar {
   display: flex;

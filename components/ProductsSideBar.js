@@ -27,6 +27,15 @@ export default function ProductSidebar ({
             {/**Header */}
             <div className='sidebar__header'>
                 <h2 className='sidebar__title'>Filters</h2>
+                  {/* Mobile close button */}
+                        <button
+                            type='button'
+                            className='sidebar__close'
+                            onClick={() => setSidebarOpen(false)}
+                            aria-label='Close filters'
+                        >
+                            ✕
+                        </button>
                 {hasActiveFilter && (
                     <button className='sidebar__clear' onClick={clearFilters}>
                         Clear all
