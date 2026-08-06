@@ -832,6 +832,8 @@ button {
   line-height: 1;
   cursor: pointer;
   padding: 0.25rem;
+  position: relative;
+  top: 3px;   /* move button slightly lower */
 }
 @media (min-width: 769px) {
   .sidebar__close {
